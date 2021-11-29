@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../../Assets/home-main.svg";
+import Section from "../Section/Section";
 import Type from "./Type/Type";
 
 function Banner() {
@@ -30,7 +31,7 @@ function Banner() {
                     </Row>
                 </Container>
             </Container>
-            {/* <Home2 /> */}
+            <Section />
         </section>
     );
 }
