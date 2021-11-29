@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../../Assets/home-main.svg";
+import Type from "./Type/Type";
 
 function Banner() {
     return (
@@ -19,7 +20,7 @@ function Banner() {
                             </h1>
 
                             <div style={{ padding: 50, textAlign: "left" }}>
-                                {/* <Type /> */}
+                                <Type />
                             </div>
                         </Col>
 
