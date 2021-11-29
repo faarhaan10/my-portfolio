@@ -4,6 +4,7 @@ import './style.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Componants/Home/Home/Home";
 import Footer from "./Componants/Footer/Footer";
+import Resume from "./Componants/Resume/Resume";
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         {/* <Route path="/project" component={Projects} />
-        <Route path="/about" component={About} />
-        <Route path="/resume" component={Resume} /> */}
+        <Route path="/about" component={About} /> */}
+        <Route path="/resume" component={Resume} />
       </Switch>
       <Footer />
     </Router>

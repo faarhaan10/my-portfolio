@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import {
     AiFillGithub,
     AiOutlineTwitter,
-    AiFillInstagram,
+    AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -68,7 +68,7 @@ const Section = () => {
                             <ul className="home-about-social-links">
                                 <li className="social-icons">
                                     <a
-                                        href="https://github.com/soumyajit4419"
+                                        href="https://github.com/faarhaan10"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="icon-colour  home-social-icons"
@@ -78,7 +78,7 @@ const Section = () => {
                                 </li>
                                 <li className="social-icons">
                                     <a
-                                        href="https://twitter.com/Soumyajit4419"
+                                        href="#"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="icon-colour  home-social-icons"
@@ -88,7 +88,7 @@ const Section = () => {
                                 </li>
                                 <li className="social-icons">
                                     <a
-                                        href="https://www.linkedin.com/in/soumyajit4419/"
+                                        href="https://www.linkedin.com/in/farhan-elias/"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="icon-colour  home-social-icons"
@@ -98,12 +98,12 @@ const Section = () => {
                                 </li>
                                 <li className="social-icons">
                                     <a
-                                        href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                                        href="https://www.facebook.com/faarhaan10/"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="icon-colour home-social-icons"
                                     >
-                                        <AiFillInstagram />
+                                        <AiFillFacebook />
                                     </a>
                                 </li>
                             </ul>
