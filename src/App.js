@@ -6,6 +6,8 @@ import Home from "./Componants/Home/Home/Home";
 import Footer from "./Componants/Footer/Footer";
 import Resume from "./Componants/Resume/Resume";
 import Contact from "./Componants/Contact/Contact";
+import Project from "./Componants/Projects/Project/Project";
+import ProjectDetails from "./Componants/Projects/ProjectDetails/ProjectDetails";
 
 function App() {
   return (
@@ -13,6 +15,12 @@ function App() {
       <Navigation />
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/project" component={Project} />
+        <Route path="/projects/:id" component={ProjectDetails} />
+        {/* <Route path='projects/:id'>
+          <ProjectDetails />
+        </Route> */}
+
         <Route path="/resume" component={Resume} />
         <Route path="/contact" component={Contact} />
       </Switch>
