@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { AiOutlineDownload } from "react-icons/ai";
 import homeLogo from "../../../Assets/home-main.svg";
-import Section from "../Section/Section";
+import pdf from "../../../Assets/Farhan Resume.pdf";
 import Type from "./Type/Type";
 
 function Banner() {
@@ -22,10 +23,6 @@ function Banner() {
 
                             <div className="text-center ">
                                 <Type />
-                            </div>
-                            <div className="text-center ">
-                                <Button variant="outline-success" className='me-5 rounded'>Hire me</Button>
-                                <Button variant="info">Get Resume</Button>
                             </div>
                         </Col>
 

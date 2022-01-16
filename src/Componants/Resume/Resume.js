@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Image, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import pdf from "../../Assets/Farhan Resume.pdf";
+import resumeIMG from "../../Assets/resume.png";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -26,9 +27,8 @@ const Resume = () => {
                 </Row>
                 <Row className="resume">
                     <div className='text-center' style={{ width: width1 }}>
-                        <Document file={pdf} className='mx-auto w-full'>
-                            <Page pageNumber={1} scale={width1 > 786 ? 1.9 : 0.5} />
-                        </Document></div>
+                        <Image src={resumeIMG} fluid className='mx-auto' />
+                    </div>
                 </Row>
                 <Row style={{ justifyContent: "center", position: "relative" }}>
                     <div className='text-center'><Button variant="primary" href={pdf} target="_blank">
