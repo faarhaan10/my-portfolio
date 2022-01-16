@@ -8,6 +8,8 @@ import Resume from "./Componants/Resume/Resume";
 import Contact from "./Componants/Contact/Contact";
 import Project from "./Componants/Projects/Project/Project";
 import ProjectDetails from "./Componants/Projects/ProjectDetails/ProjectDetails";
+import './App.css';
+import About from "./Componants/About/About";
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
 
         <Route path="/resume" component={Resume} />
         <Route path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
       </Switch>
       <Footer />
     </Router>

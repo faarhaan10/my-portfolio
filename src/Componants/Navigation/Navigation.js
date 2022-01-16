@@ -36,9 +36,7 @@ const Navigation = () => {
             className={navColour ? "sticky" : "navbar"}
         >
             <Container>
-                <Navbar.Brand href="/">
-                    <img src={logo} className="img-fluid logo" alt="brand" />
-                </Navbar.Brand>
+
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
                     onClick={() => {
@@ -50,7 +48,7 @@ const Navigation = () => {
                     <span></span>
                 </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ml-auto" defaultActiveKey="#home">
+                    <Nav className="justify-content-end" defaultActiveKey="#home">
                         <Nav.Item>
                             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home

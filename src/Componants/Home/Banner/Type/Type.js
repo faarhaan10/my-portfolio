@@ -1,18 +1,20 @@
 import React from 'react';
 import Typewriter from "typewriter-effect";
 
+
 const Type = () => {
     return (
-        <Typewriter
+        <Typewriter style={{ color: 'white' }}
             options={{
                 strings: [
-                    "Developer",
-                    "MERN Stack Developer",
-                    "Open Source Contributor",
+                    "Enthuistic Developer 😎",
+                    "Full Stack Developer 💻",
+                    "MERN Stack Dev 📱",
+                    "Open Source Contributor 🌍",
                 ],
                 autoStart: true,
                 loop: true,
-                deleteSpeed: 50,
+                deleteSpeed: 100,
             }}
         />
     );

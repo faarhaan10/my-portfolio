@@ -9,10 +9,10 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 
 const Resume = () => {
-    const [width, setWidth] = useState(1200);
+    const [width1, setWidth1] = useState(1200);
 
     useEffect(() => {
-        setWidth(window.innerWidth);
+        setWidth1(window.innerWidth);
     }, []);
 
     return (
@@ -25,9 +25,9 @@ const Resume = () => {
                     </Button></div>
                 </Row>
                 <Row className="resume">
-                    <div className='text-center'>
-                        <Document file={pdf}>
-                            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+                    <div className='text-center' style={{ width: width1 }}>
+                        <Document file={pdf} className='mx-auto w-full'>
+                            <Page pageNumber={1} scale={width1 > 786 ? 1.9 : 0.5} />
                         </Document></div>
                 </Row>
                 <Row style={{ justifyContent: "center", position: "relative" }}>
