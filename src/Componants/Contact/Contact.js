@@ -27,7 +27,7 @@ const Contact = () => {
 
     return (
         <Container fluid className="resume-section">
-            <Container>
+            <Container className='py-5'>
                 <Row style={{ justifyContent: "center", position: "relative" }}>
                     <h2 className='text-center purple fw-bold text-uppercase'>Get in touch with me</h2>
                     <div style={{ width: '22rem' }}>

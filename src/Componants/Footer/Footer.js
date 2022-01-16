@@ -11,7 +11,7 @@ const Footer = () => {
     let date = new Date();
     let year = date.getFullYear();
     return (
-        <Container fluid className="footer">
+        <Container fluid className="footer position-fixed">
             <Row>
                 <Col md="4" className="footer-copywright">
                     <h3>Designed and Developed by Farhan Elias</h3>
